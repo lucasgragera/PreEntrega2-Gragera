@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <title>AUTOMOVILISMO ARGENTINO</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+</head>
+<header>
+    <header>
+        <div class="navbar">
+            <div class="fotologo"><img src="../multimedia/logo-aav.png"  alt=""></div>
+            <div class="logo"><a href="#">AUTOMOVILISMO ARGENTINO</a></div>
+            <ul class="links">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../pages/tc.html">TC</a></li>
+                <li><a href="../pages/tc2000.html">TC2000</a></li>
+            </ul>
+            <!-- <a href="#" class="action_btn">Get Started</a> -->
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="../pages/tc.html">TC</a></li>
+            <li><a href="../pages/tc2000.html">TC2000</a></li>
+            <!-- <li><a href="#" class="action_btn">Get Started</a></li> -->
+        </div>
+        <!-- <a class="header">
+        <img src="./multimedia/logo-aav.png" width="50px" alt="">
+        </a>
+        <h2>AUTOMOVILISMO ARGENTINO</h2>
+        <nav>
+            <section class="nav-bar">
+                    <a href="index.html">HOME</a>
+                    <a href="./pages/tc.html">TC</a>
+                    <a href="./pages/tc2000.html">TC2000</a>
+            </section>
+        </nav> -->
+    </header>  
+
+    <script>
+        const togglebtn=document.querySelector(".toggle_btn")
+        const togglebtnicon=document.querySelector(".toggle_btn i")
+        const dropdownmenu=document.querySelector(".dropdown_menu")
+
+        togglebtn.onclick=function(){
+            dropdownmenu.classList.toggle("open")
+            const isopen=dropdownmenu.classList.contains("open")
+
+            togglebtnicon.classList=isopen
+                ? "fa-solid fa-xmark"
+                : "fa-solid fa-bars"
+        }
+    </script>
+</header> 
+<body>
+<div class="logo">
+    <img class="fotocateg" src="../multimedia/logo-tc2000.webp" alt=""width="15%">
+    <h2 class="titulocateg">TC2000</h2>
+</div>
+<div id="videofondo">
+    <div class="textovideotc2000">
+        <h1 class="tc20001">POSICIONES FINALES 2022
+            <br>
+            1- Leonel Pernia (314 pts)
+            <br>
+            2- Julian Santero (279 pts)
+            <br>
+            3- Agustin Canapino (243 pts)
+            <br>
+            4- Bernardo Llaver (226 pts)
+            <br>
+            5- Jorge Barrio (217 pts)
+            <br>
+            6- Ignacio Montenegro (198 pts)
+            <br>
+            7- Matias Milla (186 pts)
+            <br>
+            8- Facundo Ardusso (145 pts)
+            <br>
+            9- Franco Vivian (123 pts)
+            <br>
+            10- Fabian Yannantuoni (85 pts)
+        </h1>
+        <h1 class="tc20002">
+            CALENDARIO 2023
+            <br>
+            1- 26 feb. Buenos Aires
+            <br>
+            2- 19 mar. Rafaela
+            <br>
+            3- 23 abr. A Confirmar
+            <br>
+            4- 14 may. A Confirmar
+            <br>
+            5- 4 jun. A Confirmar
+            <br>
+            6- 25 jun. A Confirmar
+            <br>
+            7- 16 jul. A Confirmar
+            <br>
+            8- 6 ago. A Confirmar
+            <br>
+            9- 17 sep. A Confirmar
+            <br>
+            10- 8 oct. A Confirmar
+            <br>
+            11- 5 nov. A Confirmar
+            <br>
+            12- 26 nov. A Confirmar
+        </h1>
+    </div>
+    <video muted autoplay loop
+    src="../multimedia/tc2000-video.mp4"></video>
+    <div class="capa"></div>    
+</div>
+
+<div class="textovideotc2000mobile">
+        <h3 class="tc20001"> POSICIONES FINALES 2022
+            <br>
+            1- Leonel Pernia (314 pts)
+            <br>
+            2- Julian Santero (279 pts)
+            <br>
+            3- Agustin Canapino (243 pts)
+            <br>
+            4- Bernardo Llaver (226 pts)
+            <br>
+            5- Jorge Barrio (217 pts)
+            <br>
+            6- Ignacio Montenegro (198 pts)
+            <br>
+            7- Matias Milla (186 pts)
+            <br>
+            8- Facundo Ardusso (145 pts)
+            <br>
+            9- Franco Vivian (123 pts)
+            <br>
+            10- Fabian Yannantuoni (85 pts)
+        </h3>
+        <br>
+        <h3 class="tc20002">
+            CALENDARIO 2023
+                <br>
+                1- 26 feb. Buenos Aires
+                <br>
+                2- 19 mar. Rafaela
+                <br>
+                3- 23 abr. A Confirmar
+                <br>
+                4- 14 may. A Confirmar
+                <br>
+                5- 4 jun. A Confirmar
+                <br>
+                6- 25 jun. A Confirmar
+                <br>
+                7- 16 jul. A Confirmar
+                <br>
+                8- 6 ago. A Confirmar
+                <br>
+                9- 17 sep. A Confirmar
+                <br>
+                10- 8 oct. A Confirmar
+                <br>
+                11- 5 nov. A Confirmar
+                <br>
+                12- 26 nov. A Confirmar
+        </h3>
+</div>
+
+<!-- <div class="imgrad">
+    <img src="../multimedia/vezzaro-tc2000.jpg" alt=""width="15%">
+    <h3>ISIDORO VEZZARO CORRERA PARA TGR OFICIAL</h3>
+</div>
+<div class="imgrad">
+    <img src="../multimedia/tc2000-autosycaract.webp" alt=""width="15%">
+    <h3>AUTOS Y CARACTERISTICAS</h3>
+</div>
+<div class="imgrad">
+    <img src="../multimedia/tc2000-camaras-abordo.jpg" alt=""width="15%">
+    <h3>CAMARAS A BORDO</h3>
+</div>
+<br>
+<div class="maps">
+    <h3>PROXIMA FECHA:</h3>
+    <h3>AUTODROMO OSCAR Y JUAN GALVEZ</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4656059511135!2d-58.46127988476793!3d-34.69343448043635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccea3e2b5ee41%3A0x7c931260b208c5db!2zQXV0w7Nkcm9tbyDDk3NjYXIgeSBKdWFuIEfDoWx2ZXo!5e0!3m2!1ses-419!2sar!4v1676649703732!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div> -->
+
+<div class="containertc2000">
+    <div class="caja1tc2000">
+    <img src="../multimedia/vezzaro-tc2000.jpg" alt=""width="90%" height="60%">
+        <h5>ISIDORO VEZZARO CORRERA PARA TGR OFICIAL</h5>
+    </div>
+    <div class="caja2tc2000" class="imgrad">
+        <img src="../multimedia/tc2000-autosycaract.webp" alt=""width="90%" height="60%">
+        <h5>AUTOS Y CARACTERISTICAS</h5>
+    </div>
+    <div class="caja3tc2000" class="imgrad">
+        <img src="../multimedia/tc2000-camaras-abordo.jpg" alt=""width="90%" height="60%">
+        <h5>CAMARAS A BORDO</h5>
+    </div>
+    <br>
+    <div class="caja4tc2000" class="maps">
+        <h5>PROXIMA FECHA:</h5>
+        <h5>AUTODROMO OSCAR Y JUAN GALVEZ</h5>
+        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4656059511135!2d-58.46127988476793!3d-34.69343448043635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccea3e2b5ee41%3A0x7c931260b208c5db!2zQXV0w7Nkcm9tbyDDk3NjYXIgeSBKdWFuIEfDoWx2ZXo!5e0!3m2!1ses-419!2sar!4v1676649703732!5m2!1ses-419!2sar" width="70%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+<br>
+<!-- <a>
+    <h3>MULTIMEDIA</h3>
+    <div class="multimedia">
+        <img class="foto" src="../multimedia/tc2000multimedia1.jpg" alt=""width="10%">
+        <img class="foto" src="../multimedia/tc2000-multimedia6.jpg" alt=""width="10%">
+        <img class="foto" src="../multimedia/tc2000-multimedia2.jpg" alt=""width="10%">
+        <img class="foto" src="../multimedia/tc2000-multimedia3.jpg" alt=""width="10%">
+        <img class="foto" src="../multimedia/tc2000-multimedia5.jpg" alt=""width="10%">
+        <img class="foto" src="../multimedia/tc2000-multimedia4.jpg" alt=""width="10%">
+    </div>    
+    <a>
+        <iframe width="100%" height="475" src="https://www.youtube.com/embed/XmNTt9k-e4c" title="TC2000 | ALTA GRACIA | FECHA 6 | FINALES | TC2000,  TC2000 SERIES Y FORMULA NACIONAL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </a> -->
+    <a>
+        <h3 class="titulomultimedia">MULTIMEDIA</h3>
+        <div class="multimediatc2000">
+            <img class="foto1tc2000" src="../multimedia/tc2000multimedia1.jpg" alt=""width="100%" height="100%">
+            <img class="foto2tc2000" src="../multimedia/tc2000-multimedia6.jpg" alt=""width="100%" height="100%">
+            <img class="foto3tc2000" src="../multimedia/tc2000-multimedia2.jpg" alt=""width="100%" height="100%">
+            <img class="foto4tc2000" src="../multimedia/tc2000-multimedia3.jpg" alt=""width="100%" height="100%">
+            <img class="foto4tc2000" src="../multimedia/tc2000-multimedia3.jpg" alt=""width="100%" height="100%">
+            <img class="foto5tc2000" src="../multimedia/tc2000-multimedia5.jpg" alt=""width="100%" height="100%">
+            <img class="foto6tc2000" src="../multimedia/tc2000-multimedia4.jpg" alt=""width="100%" height="100%">
+        </div>    
+        <a>
+            <iframe class="videotc2000" width="75%" height="50%" src="https://www.youtube.com/embed/XmNTt9k-e4c" title="TC2000 | ALTA GRACIA | FECHA 6 | FINALES | TC2000,  TC2000 SERIES Y FORMULA NACIONAL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </a>
+    </a>  
+
+
+    <footer>
+        <div>
+            <h5>Encontranos en </h5> 
+            <div class="fotofooter">
+                <img src="../multimedia/logo-instagram.png" alt=""width="2%">
+                <img src="../multimedia/logo-facebook.jpg" alt=""width="2%">
+                <img src="../multimedia/logo-twitter.png" alt=""width="2%">
+                <img src="../multimedia/logo-wpp.jpg" alt=""width="2%">
+            </div>
+            <h5>Suscribite 
+                <br>
+            y recibi la informacion de nuestro automovilismo</h5>
+            <div >
+                <form action="">
+                    <div>
+                        <input class="forms" type="text" placeholder="Nombre">
+                        <input class="forms" type="email" placeholder="Email">
+                    </div>
+                </form>
+            </div>
+        </div>   
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

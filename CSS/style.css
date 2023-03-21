@@ -1,0 +1,725 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    text-decoration: white;
+    height: 100vh;
+    background-color: white;
+}
+h3{
+    color: white;
+    padding-left: 15%;
+    align-items: center;
+}
+h5{
+    color: white;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.titulocateg{
+    align-items: center;
+}
+
+/* ---------------------------------
+VIDEO CANAPINO */
+#videofondo{
+    height: 65vh;
+    position: relative;
+    /* padding-bottom: 50%; */
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+.textovideo {
+    padding-top: 20vh;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position:absolute;
+    z-index: 2;
+}
+/* ------------------------------------------------ 
+TEXTO VIDEO TC*/
+.textovideotc .tc1{
+    color: white;
+    border-radius: 15px;
+    background-color: black;
+    font-size: small;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.textovideotc .tc2{
+    color: white;
+    border-radius: 15px;
+    background-color: black;
+    font-size: small;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.textovideotcmobile{
+    color: white;
+    font-size: small;
+    padding-left: 15%;
+}
+/* --------------------------------------------------------------
+TEXTO VIDEO TC2000 */
+.textovideotc2000 .tc20001{
+    color: white;
+    border-radius: 15px;
+    background-color: black;
+    font-size: small;
+    padding: 15px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center; */
+    width: 60%;
+    margin: auto;
+    /* position: relative; */
+    z-index: 2;
+}    
+.textovideotc2000 .tc20002{
+    color: white;
+    border-radius: 15px;
+    background-color: black;
+    font-size: small;
+    padding: 15px;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: start;
+    align-items: center; */
+    width: 60%;
+    margin: auto;
+    /* position: relative; */
+    z-index: 2;
+}
+.textovideotc2000mobile{
+    display: none;
+    color: white;
+    align-items: center;
+}
+/* ------------------------
+grid index */
+.container{
+    margin: 0;
+    padding-top: 100px;
+    display: grid;
+    grid-template-rows:  70% 70%;
+    grid-template-columns: 50% 50%;
+    /* justify-content: center; */
+}
+.caja1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.caja2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.caja3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.container img{
+    border-radius: 10px;
+    font-size: xx-small;
+}
+/* -------------------------------------------------------grid tc2000 */
+.containertc2000{
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows:  50% 50%;
+    grid-template-columns: 15% 35% 35% 15%;
+}
+.caja1tc2000{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.caja2tc2000{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.caja3tc2000{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.caja4tc2000{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.containertc2000 img{
+    border-radius: 10px;
+    font-size: xx-small;
+}
+
+.multimediatc2000{
+    padding-top: 20px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows:  50% 50% 50%;
+    grid-template-columns: 15% 23% 23% 23% 15%;
+}
+.multimediatc2000 img{
+    border-radius: 10px;
+    padding: 2px;
+}
+iframe{
+    border-radius: 10px;
+}
+.foto1tc2000{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.foto2tc2000{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.foto3tc2000{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.foto4tc2000{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.foto5tc2000{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.foto6tc2000{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.videotc2000{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    padding-left: 15%;
+}
+/* --------------------------------------------------------tc grids */
+.containertc{
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows:  50% 50%;
+    grid-template-columns: 15% 35% 35% 15%;
+}
+.caja1tc{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.caja2tc{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.caja3tc{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.caja4tc{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.containertc img{
+    border-radius: 10px;
+    font-size: xx-small;
+}
+
+.titulomultimedia{
+    padding-bottom: 180px;
+}
+.multimediatc{
+    display: grid;
+    grid-template-rows:  50% 50% 50%;
+    grid-template-columns: 15% 23% 23% 23% 15%;
+}
+.multimediatc img{
+    border-radius: 10px;
+    padding: 2px;
+}
+.foto1tc{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.foto2tc{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.foto3tc{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.foto4tc{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.foto5tc{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.foto6tc{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.videotc{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    padding-left: 15%;
+}
+/* ----------------------------------------------------------------- header */
+.fotologo img{
+    width: 40px;
+}
+header{
+    background-color: white;
+}
+li{
+    list-style: none;
+}
+.logo text{
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    align-items: start;
+}
+div{
+    display: flex;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+a:hover{
+    color: rgb(129, 129, 129);
+}
+header{
+    position: relative;
+    padding: 0 2rem;
+
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn {
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.action_btn{
+    background-color: gray;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+.action_btn:hover{
+    scale: 1.05;
+    color: rgb(151, 151, 151);
+}
+.action_btn:active{
+    scale: 0.95;
+}
+
+/* DROPDOWN MENU */
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+    height: 150px;
+    z-index: 10;
+}
+
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menu .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+.textovideotcmobile{
+    display: none;
+}
+
+
+/* RESPOONSIVE DESIGN */
+@media (max-width: 768px){
+    .navbar .links,
+    .navbar .action_btn{
+        display: none;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+    .navbar .logo a{
+        font-size: calc(10px + 0.6rem);
+        font-weight: bold; 
+    }    
+    #canapinovideo video{
+        height: 50vh;
+    }
+    .textovideo{
+        height: 25vh;
+        font-size: small;
+    }
+    h2{
+        font-size: small;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    h4{
+        size: small;
+    }
+    .titulomultimedia{
+        padding-bottom: 60px;
+    }
+    .textovideotc2000{
+        display: none;
+    }
+    .videotc{
+        height: 30%;
+    }
+    .videotc2000{
+        height: 30%;
+    }
+    .textovideotc2000mobile{
+        display: block;
+    }
+    .textovideotc{
+        display: none;
+    }
+    .textovideotcmobile{
+        display: block;
+    }
+    .fotofooter img{
+        height: 20px;
+    }
+    input.forms{
+        font-size: 30%;
+    }
+    .iframe{
+        height: 60%;
+        width: 60%;
+    }
+    .containertc img{
+        width: 100px;
+        height: 70px;
+    }
+    h5{
+        font-size: 8px;
+    }
+    .container img{
+        width: 100px;
+        height: 70px;
+    } 
+    .containertc2000 img{
+        width: 100px;
+        height: 70px;
+    }
+    .capa{
+        height: 200px;
+    }
+    video{
+        height: 200px;
+    }
+    #videofondo{
+        height: 200px;
+    }
+
+   
+}
+
+@media (max-width: 480px){
+    .fotologo img{
+        width: 30px;
+    }
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+    .navbar .logo a{
+        font-size: calc(1px + 0.5rem);
+        font-weight: bold; 
+    }    
+    .logo img{
+        width: calc(2px + 0.7rem);
+    }
+    #canapinovideo video{
+        height: 20vh;
+    }
+    .textovideo{
+        height: 15vh;
+        font-size: xx-small;
+    }
+     .containertc img{
+        width: 50px;
+        height: 30px;
+    }
+    h5{
+        font-size: 6px;
+    }
+    .tc1 .tc2 text{
+        size: 5px;
+    }
+    input.forms{
+        font-size: 10%;
+    }
+    .videotc{
+        height: 10%;
+    }
+    .videotc2000{
+        height: 10%;
+    }
+    .iframe{
+        height: 50px;
+        width: 30px;
+    }
+    .capa{
+        height: 200px;
+    }
+    video{
+        height: 200px;
+    }
+    #videofondo{
+        height: 200px;
+    }
+    .container img{
+        width: 40px;
+        height: 40px;
+    }
+    img.fotocateg{
+        width: 50px;
+    }
+    .logo a {
+        font-size: 5px;
+    }
+}
+/* ----------------------------------------------- */
+body{
+    background-color: black;
+    width: 100%;
+    align-content: center;
+}
+/* a{
+    padding-left: 15%;
+    padding-right: 15%;
+} */
+h2{
+    color: white;
+    padding-left: 15%;
+    justify-content: center;
+}
+h3{
+    color: white;
+    padding-left: 15%;
+    align-items: center;
+}
+h5{
+    color: white;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+p{
+    color: rgb(255, 255, 255);
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+/* .nav-bar{
+    text-decoration: none;
+} */
+div{
+    padding: 0%;
+}
+.forms{
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+    /* font-size: xx-small; */
+}
+
+
+
+footer{
+    padding-top: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+.fotofooter img{
+    width: 20px;    
+}
+.canapinovideo video{
+    width:100%;
+}
+.tcvideo video{
+    width: 100%;
+}
+.tc2000video video{
+    width: 100%;
+}
+.tc2000background{
+    background-image: url(../multimedia/foto-tc2000-index.jpg);
+    padding: 0% 0% 45% 0%;
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+.imgrad img{
+    border-radius: 15px;
+}
+.imgrad{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+/* .multimedia{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+} */
+.foto{
+    width: 300px;
+    height: 150px;
+    padding: 3px;
+    /* line-height: 150px; */
+    float: left;
+    border-radius: 10px;
+}
+footer{
+    padding-top: 10%;
+}
